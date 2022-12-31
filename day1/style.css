@@ -1,0 +1,91 @@
+boby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+    
+.background{
+    background: linear-gradient(to right, #43389F , #82e6e8);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.number{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    /* background-color: black; */
+}
+.one-one{
+    background-color: white;
+    height: 50px;
+    width: 24px;
+    position: absolute;
+    top: 20.4%;
+    left: 13%;
+    transform: rotate(50deg);
+	z-index: 1;
+}
+.one{
+    background-color: white;
+    height: 100px;
+    width: 24px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 10;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+.zero{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 24px solid white;
+}
+.zero-two{
+    position: absolute;
+    top: 20%;
+    left: 53%;
+    width: 100px;
+    height: 100px;
+    /* background-color: blue; */
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 24px solid white;
+}
+.big{
+    position: absolute;
+    font-size: 77px;
+    font-weight: bolder;
+    line-height: 60px;
+    color: white;
+    top: 74%;
+    left: 18%;
+}
+.small{
+    position: absolute;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 20px;
+    letter-spacing: .2em;
+    color: white;
+    top: 103%;
+    left: 18%;
+}
