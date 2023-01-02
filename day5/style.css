@@ -1,0 +1,354 @@
+.background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #42a7a1;
+    height: 500px;
+    width: 500px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.top{
+    background-color: #f1ba64;
+    height: 100px;
+    width: 400px;
+}
+
+.heading{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight: bold;
+}
+.date{
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+}
+.revenue{
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.price{
+    color: white;
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.bottom{
+	position:relative;
+	height:200px;
+	width:400px;
+	background:#ffffff;
+}
+.red{
+    background-color: red;
+    height: 5px;
+    width: 17px;
+    border-radius: 20%;
+    position: absolute;
+    top: 10%;
+    right: 49%;
+}
+.view{
+    position: absolute;
+    top: 7%;
+    right: 37%;
+    font-size: 14px;
+}
+.blue{
+    background-color: blue;
+    height: 5px;
+    width: 17px;
+    border-radius: 20%;
+    position: absolute;
+    top: 10%;
+    right: 27%;
+}
+.purchases{
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    font-size: 14px;
+}
+
+
+.week{
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    word-spacing: 20px;
+    font-size: 15px;
+}
+
+
+.dot1{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 4%;
+    bottom: 37%;
+
+}
+.line1{
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    bottom: 51.5%;
+    left: 3%;
+    transform: rotate(-45deg);
+}
+.dot2{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 16.5%;
+    bottom: 62%;
+
+}
+.line2{
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    bottom: 57%;
+    left: 18%;
+    transform: rotate(20deg);
+}
+.dot3{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 33.5%;
+    bottom: 50%;
+
+}
+.line3{
+    background-color: red;
+    width: 58px;
+    height: 5px;
+    position: absolute;
+    bottom: 56%;
+    left: 34%;
+    transform: rotate(-20deg);
+}
+.dot4{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 46.5%;
+    bottom: 60%;
+
+}
+.line4{
+    background-color: red;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    bottom: 52%;
+    left: 47%;
+    transform: rotate(30deg);
+}
+.dot5{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 62.5%;
+    bottom: 42%;
+
+}
+.line5{
+    background-color: red;
+    width: 45px;
+    height: 5px;
+    position: absolute;
+    bottom: 39.5%;
+    left: 64%;
+    transform: rotate(18deg);
+}
+.dot6{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 73.5%;
+    bottom: 35%;
+
+}
+.line6{
+    background-color: red;
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    bottom: 50.5%;
+    left: 72%;
+    transform: rotate(-45deg);
+}
+.dot7{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 88.5%;
+    bottom: 65%;
+
+}
+
+
+
+.blue-dot1{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 3%;
+    bottom: 27%;
+
+}
+.blue-line1{
+    background-color: blue;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    position: absolute;
+    bottom: 34.5%;
+    left: 4%;
+    transform: rotate(-19deg);
+}
+
+.blue-dot2{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 20%;
+    bottom: 39%;
+
+}
+.blue-line2{
+    background-color: blue;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    position: absolute;
+    bottom: 33.5%;
+    left: 20%;
+    transform: rotate(26deg);
+}
+.blue-dot3{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 35%;
+    bottom: 25%;
+}
+.blue-line3{
+    background-color: blue;
+    width: 59px;
+    height: 5px;
+    position: absolute;
+    position: absolute;
+    bottom: 31%;
+    left: 36%;
+    transform: rotate(-18deg);
+}
+
+.blue-dot4{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 49%;
+    bottom: 34%;
+
+}
+.blue-line4{
+    background-color: blue;
+    width: 54px;
+    height: 5px;
+    position: absolute;
+    bottom: 34.5%;
+    left: 49%;
+    transform: rotate(5deg);
+}
+.blue-dot5{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 62%;
+    bottom: 32%;
+
+}
+.blue-line5{
+    background-color: blue;
+    width: 54px;
+    height: 5px;
+    position: absolute;
+    bottom: 24.5%;
+    left: 63%;
+    transform: rotate(36deg);
+}
+.blue-dot6{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 74%;
+    bottom: 15%;
+
+}
+.blue-line6{
+    background-color: blue;
+    width: 81px;
+    height: 5px;
+    position: absolute;
+    bottom: 25.5%;
+    left: 73%;
+    transform: rotate(-30deg);
+}
+.blue-dot7{
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;   
+    left: 91%;
+    bottom: 35%;
+
+}
